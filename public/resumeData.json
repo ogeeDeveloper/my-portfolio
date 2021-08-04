@@ -3,16 +3,14 @@
     "name": "Omaro Grant",
     "occupation": "Full Stack JavaScript Developer",
     "description": "✨I was born to do this✨",
-    "image": "profilepic.jpg",
+    "image": "profilepic.png",
     "bio": "Hello there, my name is Omaro Grant and I'm a dedicated JavaScript developer who lives to create new things. I am passionate to work with a great companies and help them fullfill their goals by scaling it to this next level. I have gain multiple skills over the past years and also build cool projects. I wish for in the future to work on real world projects so i can get my hands on real world experience and the skills required to succed as a web developer out in the world",
     "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
     "email": "omarogrant202@hotmail.com",
     "phone": "+18764752206",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "state": "Kingston",
+      "country": "Jamaica"
     },
     "website": "#",
     "resumedownload": "#",
@@ -43,10 +41,9 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "Vocational and Taining Development Institute - JM",
+        "degree": "Bachelor's Degree, Information and Communication Technology",
+        "year": "2019"
       }
     ],
     "work": [
@@ -60,11 +57,7 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
-      },
-      {
-        "name": "Python",
-        "level": "85%"
+        "level": "60%"
       },
       {
         "name": "Git",
@@ -72,33 +65,39 @@
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "75%"
       },
       {
         "name": "Web Development",
-        "level": "95%"
+        "level": "70%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "AirBnB Clone (React JS)",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "image": "Airbnb.png",
+        "url": "#"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Youtube Clone (React JS)",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "Youtube.png",
+        "url": "#"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Hulu Clone (React JS)",
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "Hulu.png",
+        "url": "#"
+      },
+      {
+        "title": "WhatsApp Clone (React JS)",
+        "category": "",
+        "image": "Whatsapp.png",
+        "url": "#"
       }
     ]
   },

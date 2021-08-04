@@ -1,12 +1,14 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import Typewriter from "typewriter-effect";
 
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
-    var city = data.address.city;
+    var city = data.address.state;
+    var country = data.address.country;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
@@ -45,11 +47,6 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
-          <li>
             <a className="smoothscroll" href="#testimonials">
               Testimonials
             </a>
@@ -65,10 +62,18 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+             <Typewriter onInit={(typewriter)=> {
+               typewriter
+                .typeString(`Hello, I'm Omaro Grant. `)
+                .pauseFor(1000)
+                .typeString("Nice to meet you.")
+                // .deleteAll()
+                .start();
+       }}
+       /> 
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            Based in {city}, {country}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
