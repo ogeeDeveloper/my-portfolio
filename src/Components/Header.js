@@ -46,11 +46,11 @@ const Header = ({ data }) => {
               Resume
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="smoothscroll" href="#testimonials">
               Testimonials
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
@@ -60,13 +60,13 @@ const Header = ({ data }) => {
       </nav>
 
       <div className="row banner">
-        <div className="banner-text">
+        <div className="banner-text glass">
           <h1 className="responsive-headline">
              <Typewriter onInit={(typewriter)=> {
                typewriter
-                .typeString(`Hello, I'm Omaro Grant. `)
+                .typeString(`I'm Omaro Grant. `)
                 .pauseFor(1000)
-                .typeString("Nice to meet you.")
+                .typeString(`Nice to meet you`)
                 // .deleteAll()
                 .start();
        }}
